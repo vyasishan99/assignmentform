@@ -1,0 +1,119 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 30%;
+    height: auto;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-left: 10%;
+
+}
+
+.search {
+    width: 50%;
+    height: auto;
+}
+
+.search input {
+    width: 80%;
+    height: auto;
+    padding: 8px;
+}
+
+.account {
+    width: 20%;
+    height: auto;
+}
+
+.account button {
+    width: 170px;
+    height: auto;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: solid 1px;
+    font-size: 16px;
+}
+
+#navbar {
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    top: 0;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    margin-left: 35%;
+}
+
+#navbar ul li {
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+#navbar a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+#content {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    padding: 15px;
+    background-color: gray;
+}
+
+.register-form {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.input-group {
+    width: 90%;
+    height: auto;
+    background-color: lightgray;
+    border: solid 2px lightgray;
+    padding: 15px;
+    margin-top: 2%;
+}
+
+.input-group input[type="text"] {
+    width: 350px;
+    height: auto;
+    padding: 8px;
+}
+
+.input-group-submit input[type="submit"] {
+    width: 50%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 3%;
+    padding: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
