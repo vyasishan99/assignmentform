@@ -1,0 +1,14 @@
+                                                     SQL  Assignment Task-2
+
+(a) select * from orders where amt>1000;
+(b) select sname,city from sales_person where city='LONDON' and comm>0.10;
+(c) select sname,city from sales_person where city in ('BARCELONA','LONDON');
+(d) select sname,comm from sales_person where comm between 0.10 and 0.12;
+(e) select * from customer where city is null;
+(f)  select * from orders where ode between '1994-10-03' and '1994-10-04';
+(g) select cname from customer,orders where orders.cnm=customer.cnm and orders.sno in(select
+      sno from sales_person where sname in('PEEL','MOTIKA'));
+(h) select * from customer where cname like 'A%' or cname like 'B%';
+(i)  select * from customer where rating<=100 or city='ROME';
+(j)  select * from orders where amt!=0 or amt is not null;
+(k) select count(Distinct sno) from orders;

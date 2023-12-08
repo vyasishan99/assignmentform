@@ -1,0 +1,22 @@
+                                                          SQL Assignment Task-1
+
+(a) select first_name "employee name" from employee;
+(b) select first_name,year(joining_date),month(joining_date),day(joining_date) from employee;
+(c) select * from employee order by first_name asc,salary desc;
+(d) select * from employee where first_name like '%O%';
+(e) select * from employee where month(joining_date)=1;
+(f)  select department,sum(salary) from employee group by department order by sum(salary) desc;
+(g) select department,max(salary) from employee group by department order by max(salary) asc;
+(h) select first_name,incentive_amt from employee join incentives on employee.em_id=incentives.
+      employee_ref_id where incentive_amt>3000;
+(i) select max(salary) from employee where salary<(select MAX(salary) from employee);
+(j) select first_name,incentive_amt from employee left join incentives on employee.em_id=incentives.
+    employee_ref_id;
+(k) create view employee
+     select first_name,last_name,salary
+     from employee
+
+    //so view
+     select * from employeeview
+(l) select department,MAX(salary) from employee group by department;
+
