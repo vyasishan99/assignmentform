@@ -1,0 +1,23 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: lightgray !important;
+}
+#crud-app
+{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding: 2px;
+    margin-top: 5%;
+}
+#manage-app
+{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding: 2px;
+}
