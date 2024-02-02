@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact Us</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src='main.js'></script>
+    <style>
+        body
+        {
+            background-color: aqua;
+        }
+        .icons
+        {
+            margin-left: 10px;
+            color:blue;
+        }
+        .contact-container
+        {
+            margin: auto;
+            padding: 10px;
+        }
+        .form-group
+        {
+            width: 70%;
+            height: auto;
+            margin: auto;
+            
+            
+        }
+        .center-button
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <h3 class="text-center">Contact Us</h3>
+        <p><b><Address:</b>121 Main Street,Gujarat,Rajkot-360005 </p>
+        <p><b>Phone:</b>7899876531</p>
+        <p><b>Email:</b>info12@restaurant.com</p>
+
+        <div class="icons">
+            <b class="text-dark fs-2"><span class="bi bi-facebook"></span></b>
+                        <b class="text-dark fs-2"><span class="bi bi-instagram"></span></b>
+                        <b class="text-dark fs-2"><span class="bi bi-twitter"></span></b>
+        </div>
+        <br>
+        <h5 class="text-center">Send us a message</h5>
+        <form id="ContactForm">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required class="form-control">
+            </div>
+            <br>
+
+
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Your Email" required class="form-control">
+            </div>
+            <br>
+
+            <div class="form-group">
+                <textarea class="form-control" placeholder="Special Required"></textarea>
+            </div>
+            <br>
+            <br>
+            <div class="center-button">
+            <button type="submit" class="btn btn-warning">Submit</button>
+            </div>
+            
+            
+        </form>
+
+    </div>
+    
+</body>
+</html>
