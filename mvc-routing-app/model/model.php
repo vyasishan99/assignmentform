@@ -1,26 +1,21 @@
-<?php
-
-  class model 
+<?php 
+class model 
+{
+    public $conn="";
+    public function __construct()
     {
-     public $conn="";
-     public function __construct()
+    //database connection 
+     try 
      {
-        // database connection
-        try
-        {
-           $this->conn=new mysqli("localhost","root","","mvc-my-app");
-           // echo "Connection stablished successfully";
-        }
-        catch(Exception)
-        {
-            die(mysqli_error($this->conn));
-        }
+        $this->conn=new mysqli("localhost","root","","mvc-my-app");
+        // echo "Connection stablished successfully";
+     }
+     catch(Exception)
+     {
+        die(mysqli_error($this->conn));
      }
     }
-
-
-
-
+}
 
 
 ?>

@@ -1,26 +1,25 @@
-body
+body 
 {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     box-sizing: border-box;
 }
- .navbar
- {
+.navbar
+{
     width: 100%;
     height: auto;
- }
- .navbar ul li
- {
+    
+}
+.navbar ul li 
+{
     display: inline-block;
     padding: 4px 15px;
- }
- .navbar a
- {
+}
+.navbar a 
+{
     text-decoration: none;
     list-style: none;
     list-style-type: none;
-    color: white;
- }
-
- 
+    color: white;    
+}
